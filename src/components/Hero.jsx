@@ -48,7 +48,7 @@ const Hero = () => {
 
   return (
     <>
-        <div className='flex flex-wrap'>
+        <div className='flex flex-wrap pt-20'>
             {users.map(function(elem){
                 return <Card key={elem.id} name={elem.name} age={elem.age} city={elem.city} prof={elem.profession} profile={elem.profilePhoto}/>
             })}

@@ -1,15 +1,17 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Header = () => {
+  
   return (
     <>
-        <nav className='bg-emerald-950 p-5 justify-between flex items-center'>
+        <nav className='bg-emerald-950 p-5 justify-between flex items-center fixed w-full'>
             <h2 className='text-2xl bg-transparent'>Yadev Singh Nishad</h2>
             <div className='flex gap-10 bg-transparent'>
-                <h4 className='text-xl bg-transparent'>About</h4>
-                <h4 className='text-xl bg-transparent'>Contact</h4>
-                <h4 className='text-xl bg-transparent'>Services</h4>
-                <h4 className='text-xl bg-transparent'>Your Account</h4>
+                <Link to='/'>Home</Link>
+                <Link to='/about'>About</Link>
+                <Link to='/contact'>Contact</Link>
+                <Link to='/product'>Product</Link>
             </div>
         </nav>
     </>

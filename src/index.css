@@ -12,3 +12,11 @@
 body{
   background-color: #111;
 }
+
+h1{
+  color: white;
+  font-size: xx-large;
+  height: 40vh;
+  width: 50vw;
+  transform: translate(50%,50%) 
+}

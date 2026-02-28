@@ -11,8 +11,8 @@ const ChangeUser = () => {
     
   return (
     <div>
-        <h1>Hello {user}</h1>
-        <button onClick={change}>Change user</button>
+        <h1 className='bg-yellow-500 inline-block m-10 text-3xl'>Hello {user}</h1>
+        <button className='text-black bg-green-500 p-1 rounded' onClick={change}>Change user</button>
     </div>
   )
 }
